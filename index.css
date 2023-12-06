@@ -1,0 +1,168 @@
+@font-face {
+    font-family: "PhilosopherRegular";
+    src: url("/Fonts/Philosopher-Bold.ttf");
+    src: url("/Fonts/Philosopher-BoldItalic.ttf")format("embedded-opentype"),
+    url("/Fonts/Philosopher-Italic.ttf") format("woff"),
+    url("/Fonts/Philosopher-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+html, body {
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+}
+body {
+    background-color: bisque;
+    text-align: center;
+    width: 1560px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+body header img{
+    width: 10%;
+}
+body {
+    font-size: 22px;
+}
+
+ ul{
+    text-align: center;
+    padding-left: 0;
+}
+ li {
+    display: inline;
+    padding: 0;
+    margin-right: 100px;
+}
+.menu {
+    text-align: center;
+    color: black;
+}
+.menu a{
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+}
+li:last-child{
+    margin-right: 0;
+}
+
+section {
+    width: 100%;
+    background-position: center;
+    height: 650px;
+    width: 100%;
+    background-image:url("phts/wide.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+    margin-right: 0%;
+    margin-left: -7px;
+    margin-right: -20px;
+}
+.about h1{
+    font-size: 36px;
+}
+.about p{
+    font-size: 20px;
+}
+section .about{
+    position: absolute;
+    overflow: hidden;
+    top: 249px;
+    left: 880px;
+    background: linear-gradient(180deg, rgb(249, 213, 152) 0%, rgba(235, 164, 149, 0.623) 100%);
+    height: 260px;
+    width: 520px;
+    text-align: center;
+    font-family: 'Philosopher';
+}
+section h2{
+    font-size: 36px;
+    font-family: 'Philosopher';
+}
+section p{
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+.logos
+{
+    margin-top: 30px;
+    text-align: center;
+    padding-left: 0;
+}
+.logos img
+{
+    display: inline;
+    margin-right: 80px;
+    padding: 0;
+
+}
+
+.logos:last-child{
+    margin-right: 0;
+}
+
+.remark h1
+{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 96px;
+    font-family: 'Philosopher' ;
+
+}
+
+.templ {
+    width: 1000px;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+}
+
+.templ p{
+    font-size: 18px;
+    font-family: 'Roboto';
+    align-items: center;
+}
+.remark span{
+    color: red;
+}
+.but a{
+    font-size: 36px;
+    text-align: center;
+    font-family: "Philosopher" ;
+    margin-top: 30px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.map p{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 18%;
+}
+
+#line hr{
+    height:1px;
+    border: solid;
+    color: #999;
+    width: 1024px;
+}
+.centr img{
+    width: 200px;
+}
